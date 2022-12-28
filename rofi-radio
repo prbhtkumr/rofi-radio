@@ -13,6 +13,10 @@ notification(){
 	notify-send "Playing now: " "$@" --icon=media-tape
 }
 
+# number of the stream as per the $choice variable
+# name of the stream
+# additional tag to filter similar type of streams
+
 menu(){
 	printf "1. Lofi Girl <lofi>\n"
 	printf "2. Chillhop <lofi>\n"
