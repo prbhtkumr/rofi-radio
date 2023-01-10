@@ -65,7 +65,7 @@ main() {
 			;;
 		6)
 			notification "Dreamhop ☕️🎶";
-            URL="https://youtu.be/A6rK6_VqBls"
+            URL="https://youtu.be/wkhLHTmS_GI"
 	    ADDITIONAL_ARGS="--volume=60"
 			break
 			;;
@@ -93,8 +93,7 @@ main() {
 		esac
     # run mpv with args and selected url
     # added title arg to make sure the pkill command kills only this instance of mpv
-    ARGS="$ARGS $ADDITONAL_ARGS"
-    mpv $ARGS --title="radio-mpv" $URL
+    mpv $ARGS --title="radio-mpv" $URL $ADDITIONAL_ARGS
 }
 
 pkill -f radio-mpv || main
