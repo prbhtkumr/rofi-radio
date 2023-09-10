@@ -26,7 +26,6 @@ menu(){
 	printf "6. Dreamhop <lofi>\n"
 	printf "7. NDTV 24x7 <news>\n"
 	printf "8. WION Live <news>\n"
-	printf "9. Nirvana Shatakam <aadhyatama>\n"
 }
 
 main() {
@@ -78,15 +77,8 @@ main() {
 		
 		8)
 			notification "WION Live 📰"
-            URL="https://youtu.be/3JlVqzNSYys"
+            URL="https://youtu.be/lmZRiDMK3OU"
 	    ADDITIONAL_ARGS=""
-			break
-			;;
-
-		9)
-			notification "Nirvana Shatakam 🕉️";
-            URL="https://youtu.be/Ed_RsCvuPBQ"
-	    ADDITIONAL_ARGS="--loop"
 			break
 			;;
 		
