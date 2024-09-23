@@ -20,7 +20,7 @@ $ sudo pacman -S rofi notify-osd mpv
 Clone this repository:
 
 ```
-$ git clone https://github.com/aerosol-can/rofi-radio
+$ git clone https://github.com/prbhtkumr/rofi-radio
 $ cd rofi-radio
 ```
 ```
