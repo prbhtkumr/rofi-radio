@@ -7,7 +7,7 @@ notification(){
     # notify the user of the current stream being played
     # change the icon to whatever you want. make sure your notification server 
     # supports it and already configured.
-    notify-send "Playing now: " "$@" --icon=media-tape
+    notify-send "Playing now: " "$@" --icon=media-tape --app-name rofi-radio
 }
 
 # number of the stream as per the $choice variable
